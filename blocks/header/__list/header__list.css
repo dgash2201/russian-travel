@@ -1,0 +1,7 @@
+.header__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  outline: 1px solid red;
+}

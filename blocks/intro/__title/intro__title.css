@@ -1,0 +1,27 @@
+.intro__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  margin: 40px 0 0 16px/* calc(16px + (100vw - 320px) / 2) */;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__title {
+    margin: 40px 0 0 24px/* calc(24px + (100vw - 768px) / 2) */;
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    margin: 40px 0 0 calc(48px + (100vw - 1024px) / 2);
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__title {
+    margin: 40px 0 0 calc(148px + (100vw - 1280px) / 2);
+  }
+}
