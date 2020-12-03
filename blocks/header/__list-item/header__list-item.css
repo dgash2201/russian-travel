@@ -4,6 +4,10 @@
   align-self: center;
 }
 
+.header__list-item:first-of-type {
+  text-decoration: underline;
+}
+
 .header__list-item:last-of-type {
   margin: 0;
 }

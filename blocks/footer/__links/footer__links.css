@@ -1,0 +1,25 @@
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 248px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__links {
+    flex-direction: row;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__links {
+    
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__links {
+    
+  }
+}
