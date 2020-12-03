@@ -1,12 +1,12 @@
 .intro__list {
   padding: 0;
-  margin: 34px 0 0 16px/* calc(16px + (100vw - 320px) / 2) */;
+  margin: 34px 0 0 16px;
   max-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
   .intro__list {
-    margin: 40px 0 0 24px/* calc(24px + (100vw - 768px) / 2) */;
+    margin: 40px 0 0 24px;
     max-width: 720px;
   }
 }
