@@ -15,12 +15,12 @@
 
 @media screen and (min-width: 1024px) {
   .lead__caption {
-    margin: 8px 0 0 calc(48px + (100vw - 1024px) / 2);
+    margin: 8px 0 0 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__caption {
-    margin: 8px 0 0 calc(148px + (100vw - 1280px) / 2);
+    margin: 8px 0 0 148px;
   }
 }

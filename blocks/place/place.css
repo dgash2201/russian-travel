@@ -4,6 +4,7 @@
   row-gap: 32px;
   grid-auto-flow: row;
   align-items: start;
+  width: 100%;
   max-width: 320px;
   margin: 49px auto 0 auto;
 }

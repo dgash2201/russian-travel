@@ -1,25 +1,28 @@
 .place__image {
-  width: 320px;
+  object-fit: contain;
+  object-position:left top;
+  width: 100%;
+  max-width: 320px;
   height: 320px;
 }
 
 @media screen and (min-width: 768px) {
   .place__image {
-    width: 340px;
+    max-width: 340px;
     height: 340px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__image {
-    width: 440px;
+    max-width: 440px;
     height: 440px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place__image {
-    width: 460px;
+    max-width: 460px;
     height: 460px;
   }
 }
