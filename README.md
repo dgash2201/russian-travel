@@ -1,7 +1,7 @@
-# Russian travel
+# Путешествие по России
 
-**Description**  
-This project is a website about traveling in Russia.
+**Описание**  
+Этот проект представляет собой сайт о путешествии по России.
 
-**What technologies are used in this project**  
-The project was developed using the BEM methodology. He complies with principles of the adaptive design. It contains examples of using flexbox, grid layouts, media queries, pseudo-classes, and so on.
+**Какие технологии используются**  
+Проект был разработан с использованием методологии БЭМ. Он соответсвует принципам адаптивного дизайна. В нем можно найти примеры использования таких технологий как flexbox, grid layout,  media запросы, псевдоклассы.
