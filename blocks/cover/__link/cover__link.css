@@ -1,8 +1,7 @@
 .cover__link {
   width: 100vw;
-  height: 62.5vw;
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 62.5vw;
   text-decoration: none;
   color: white;
   display: flex;
@@ -25,4 +24,10 @@
 
 .cover__link:hover::before {
   opacity: .8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__link {
+    min-height: 740px;
+  }
 }

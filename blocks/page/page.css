@@ -1,9 +1,16 @@
 .page {
   background: #2A2C2F;
   color: #FFF;
-  width: 100%;
+  /* width: 100%;
   min-width: 320px;
-  max-width: 1280px;
+  max-width: 1280px; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto minmax( 320px, 1280px ) auto;
+  grid-template-areas:
+    ". header ."
+    ". main ."
+    ". footer .";
   font-family: 'Inter', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
